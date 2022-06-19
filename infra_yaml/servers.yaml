@@ -70,7 +70,7 @@ Resources:
       
       ImageId: !Ref WebServerAMI
       # ToDo: Change the key-pair name, as applicable to you. 
-      KeyName: ec2_personal
+      
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: !Ref WebServerInstanceType
